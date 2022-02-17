@@ -21,18 +21,16 @@ class ExpensesApp extends StatelessWidget {
 }
 
 class MyHomePage extends StatelessWidget {
-  
-
-  
-  MyHomePage({Key? key}) : super(key: key);
+  MyHomePage({Key? key}) : super (key: key);
 
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-        appBar: AppBar(
-          title: const Text('Despesas Pessoais'),
-        ),
-        body: Column(
+      appBar: AppBar(
+        title: const Text('Despesas Pessoais'),
+      ),
+      body: SingleChildScrollView(
+        child: Column(
           crossAxisAlignment: CrossAxisAlignment.stretch,
           children: [
             Container(
@@ -41,8 +39,10 @@ class MyHomePage extends StatelessWidget {
                 child: Text('Gráfico'),
               ),
             ),
-         TransactionUser(),
+            TransactionUser(),
           ],
-        ));
+        ),
+      ),
+    );
   }
 }
