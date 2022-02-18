@@ -54,6 +54,7 @@ class _MyHomePageState extends State<MyHomePage> {
     setState(() {
       _transactions.add(newTransaction);
     });
+    Navigator.of(context).pop();
   }
 
   _openTransactionFormModal(BuildContext contex) {
@@ -86,17 +87,12 @@ class _MyHomePageState extends State<MyHomePage> {
                 child: Text('Gráfico'),
               ),
             ),
-            Column(
-              children: [
-                TransactionForm(_addTransaction),
-                TransactionList(transactions: _transactions),
-              ],
-            )
+            TransactionList(transactions: _transactions),
           ],
         ),
       ),
       floatingActionButton: FloatingActionButton(
-onPressed: () => _openTransactionFormModal(context),
+        onPressed: () => _openTransactionFormModal(context),
         child: Icon(Icons.add),
       ),
       floatingActionButtonLocation: FloatingActionButtonLocation.centerFloat,
