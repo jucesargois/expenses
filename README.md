@@ -29,8 +29,6 @@ A Seção 5 terá foco em interfaces responsivas e adaptivas, e o app terá alte
 
 ## Imagens do app.
 
-<img src="https://user-images.githubusercontent.com/69982713/154159908-3b70b198-3fb3-4163-b4f0-f15be33fb046.png" width="250" />
-<img src="https://user-images.githubusercontent.com/69982713/154159944-090b5326-35ff-48ca-8ebb-a210d73cab45.png" width="250" />
 
 
 
