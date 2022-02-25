@@ -17,7 +17,7 @@ Mais uma etapa do curso "Aprenda Flutter e Desenvolva Apps Para Android e IOS 20
 
 
 
-## Sobre
+## Sobre o app
 O app "Despesas Pessoais" é um app para cadastro de despesas ele é capaz de armazenar uma lista de itens contendo informações como título, valor e data que a despesa foi inserida. Ele conta também com um componente que contém os dias da semana, nele você pode visualizar o acumulado de despesas por dia e no gráfico pode-se visualizar por dia quanto este dia representa percentualmente baseado nos últimos 7 dias de despesas cadastradas.
 
 Continuação:
